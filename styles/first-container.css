@@ -1,0 +1,58 @@
+.first-container{
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-color: #FBEAEB;
+  margin-bottom: 40px;
+}
+
+.wallpaper-container{
+  padding-top: 20px;
+  width: 400px;
+}
+
+.crochet-wallpaper{
+  height: 250px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.message-container{
+  width: 650px;
+  color: #2F3C7E;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.entry-message{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.sub-entry-message{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.learn-more-button{
+  margin-top: 30px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #2F3C7E;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.learn-more-button:hover{
+  opacity: 0.8;
+}
+
+.learn-more-button:active{
+  opacity: 0.2;
+}
